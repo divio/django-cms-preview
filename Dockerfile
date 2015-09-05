@@ -8,7 +8,8 @@ RUN pip install --no-deps argparse djangocms-installer six dj-database-url pytz 
 
 RUN apt-get -y update && apt-get -y install git
 # TODO: use the `preview` branch once djangocms-installer supports that
-RUN djangocms -q -p /cms -v develop preview
+ADD requirements.txt /requirements.txt
+RUN djangocms -r /requirements.txt -q -p /cms preview
 
 ADD create-users /cms/create-users
 RUN chmod +x /cms/create-users
