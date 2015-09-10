@@ -82,7 +82,7 @@ STATICFILES_FINDERS = [
 TEMPLATE_LOADERS = (
     'django.template.loaders.filesystem.Loader',
     'django.template.loaders.app_directories.Loader',
-    'django.template.loaders.eggs.Loader'
+    'django.template.loaders.eggs.Loader',
 )
 
 TEMPLATE_CONTEXT_PROCESSORS = (
@@ -96,7 +96,7 @@ TEMPLATE_CONTEXT_PROCESSORS = (
     'django.core.context_processors.tz',
     'sekizai.context_processors.sekizai',
     'django.core.context_processors.static',
-    'cms.context_processors.cms_settings'
+    'cms.context_processors.cms_settings',
 )
 
 TEMPLATE_DIRS = (
@@ -114,7 +114,7 @@ MIDDLEWARE_CLASSES = (
     'cms.middleware.user.CurrentUserMiddleware',
     'cms.middleware.page.CurrentPageMiddleware',
     'cms.middleware.toolbar.ToolbarMiddleware',
-    'cms.middleware.language.LanguageCookieMiddleware'
+    'cms.middleware.language.LanguageCookieMiddleware',
 )
 
 INSTALLED_APPS = (
@@ -154,7 +154,7 @@ INSTALLED_APPS = (
     'aldryn_jobs',
     'aldryn_people',
     'aldryn_boilerplates',
-    'preview'
+    'preview',
 )
 
 LANGUAGES = (
@@ -184,7 +184,7 @@ CMS_TEMPLATES = (
     ## Customize this
     ('fullwidth.html', 'Fullwidth'),
     ('sidebar_left.html', 'Sidebar Left'),
-    ('sidebar_right.html', 'Sidebar Right')
+    ('sidebar_right.html', 'Sidebar Right'),
 )
 
 CMS_PERMISSION = True
@@ -198,7 +198,7 @@ DATABASES = {
         'NAME': 'project.db',
         'PASSWORD': '',
         'PORT': '',
-        'USER': ''
+        'USER': '',
     }
 }
 
@@ -213,12 +213,12 @@ MIGRATION_MODULES = {
     'djangocms_flash': 'djangocms_flash.migrations_django',
     'djangocms_style': 'djangocms_style.migrations_django',
     'djangocms_link': 'djangocms_link.migrations_django',
-    'cmsplugin_filer_video': 'cmsplugin_filer_video.migrations_django'
+    'cmsplugin_filer_video': 'cmsplugin_filer_video.migrations_django',
 }
 
 THUMBNAIL_PROCESSORS = (
     'easy_thumbnails.processors.colorspace',
     'easy_thumbnails.processors.autocrop',
     'filer.thumbnail_processors.scale_and_crop_with_subject_location',
-    'easy_thumbnails.processors.filters'
+    'easy_thumbnails.processors.filters',
 )
