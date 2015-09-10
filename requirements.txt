@@ -21,3 +21,10 @@ Pillow>=2.3
 django-sekizai>=0.7
 django-filer
 cmsplugin-filer
+aldryn-newsblog
+aldryn-faq
+aldryn-jobs
+aldryn-people
+aldryn-boilerplates
+aldryn-categories
+django-taggit
