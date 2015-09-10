@@ -20,4 +20,16 @@ EXPOSE 80
 
 WORKDIR /cms
 RUN /cms/create-users
+ADD settings.py /cms/preview/settings.py
+ADD template.html /cms/preview/templates/aldryn_faq/plugins/category_list.html
+ADD template.html /cms/preview/templates/aldryn_faq/plugins/latest_questions.html
+ADD template.html /cms/preview/templates/aldryn_faq/plugins/question_list.html
+ADD template.html /cms/preview/templates/aldryn_faq/plugins/top_questions.html
+ADD template.html /cms/preview/templates/aldryn_faq/plugins/most_read_questions.html
+ADD template.html /cms/preview/templates/aldryn_jobs/plugins/categories_list.html
+ADD template.html /cms/preview/templates/aldryn_jobs/plugins/latest_entries.html
+ADD template.html /cms/preview/templates/aldryn_people/plugins/standard/people_list.html
+
+RUN python manage.py syncdb --noinput
+RUN python manage.py migrate
 CMD python manage.py runserver 0.0.0.0:80
