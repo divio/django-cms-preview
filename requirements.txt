@@ -28,3 +28,4 @@ aldryn-people
 aldryn-boilerplates
 aldryn-categories
 django-taggit
+PyYAML
