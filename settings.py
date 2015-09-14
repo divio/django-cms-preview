@@ -212,7 +212,6 @@ MIGRATION_MODULES = {
     'cmsplugin_filer_folder': 'cmsplugin_filer_folder.migrations_django',
     'djangocms_flash': 'djangocms_flash.migrations_django',
     'djangocms_style': 'djangocms_style.migrations_django',
-    'djangocms_link': 'djangocms_link.migrations_django',
     'cmsplugin_filer_video': 'cmsplugin_filer_video.migrations_django',
 }
 
