@@ -28,4 +28,5 @@ aldryn-people
 aldryn-boilerplates
 aldryn-categories
 django-taggit
+django-sortedm2m
 PyYAML
