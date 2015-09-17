@@ -81,6 +81,7 @@ STATICFILES_FINDERS = [
 
 TEMPLATE_LOADERS = (
     'django.template.loaders.filesystem.Loader',
+    'aldryn_boilerplates.template_loaders.AppDirectoriesLoader',
     'django.template.loaders.app_directories.Loader',
     'django.template.loaders.eggs.Loader',
 )
@@ -97,6 +98,7 @@ TEMPLATE_CONTEXT_PROCESSORS = (
     'sekizai.context_processors.sekizai',
     'django.core.context_processors.static',
     'cms.context_processors.cms_settings',
+    'aldryn_boilerplates.context_processors.boilerplate',
 )
 
 TEMPLATE_DIRS = (
