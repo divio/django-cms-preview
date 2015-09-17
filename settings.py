@@ -155,6 +155,11 @@ INSTALLED_APPS = (
     'aldryn_jobs',
     'aldryn_people',
     'aldryn_boilerplates',
+    'aldryn_apphooks_config',
+    'aldryn_common',
+    'aldryn_reversion',
+    'aldryn_translation_tools',
+    'parler',
     'preview',
 )
 
@@ -187,6 +192,8 @@ CMS_TEMPLATES = (
     ('sidebar_left.html', 'Sidebar Left'),
     ('sidebar_right.html', 'Sidebar Right'),
 )
+
+ALDRYN_BOILERPLATE_NAME='bootstrap3'
 
 CMS_PERMISSION = True
 
