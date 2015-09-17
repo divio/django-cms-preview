@@ -12,6 +12,7 @@ https://github.com/divio/djangocms-file/archive/master.zip
 https://github.com/divio/djangocms-picture/archive/master.zip
 https://github.com/divio/djangocms-teaser/archive/master.zip
 https://github.com/divio/djangocms-video/archive/master.zip
+https://github.com/stefanfoulis/django-filer/archive/develop.zip
 Django<1.8
 pytz
 django-reversion>=1.8.2,<1.8.6
@@ -19,7 +20,6 @@ django-classy-tags>=0.3.4.1
 html5lib
 Pillow>=2.3
 django-sekizai>=0.7
-django-filer
 cmsplugin-filer
 aldryn-newsblog
 aldryn-faq
