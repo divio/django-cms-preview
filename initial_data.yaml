@@ -161,25 +161,6 @@
       dimensions}
   model: contenttypes.contenttype
   pk: 34
-- fields: {app_label: cmsplugin_filer_image, model: filerimage, name: filer image}
-  model: contenttypes.contenttype
-  pk: 35
-- fields: {app_label: cmsplugin_filer_image, model: thumbnailoption, name: thumbnail
-      option}
-  model: contenttypes.contenttype
-  pk: 36
-- fields: {app_label: cmsplugin_filer_file, model: filerfile, name: filer file}
-  model: contenttypes.contenttype
-  pk: 37
-- fields: {app_label: cmsplugin_filer_folder, model: filerfolder, name: filer folder}
-  model: contenttypes.contenttype
-  pk: 38
-- fields: {app_label: cmsplugin_filer_teaser, model: filerteaser, name: filer teaser}
-  model: contenttypes.contenttype
-  pk: 39
-- fields: {app_label: cmsplugin_filer_video, model: filervideo, name: filer video}
-  model: contenttypes.contenttype
-  pk: 40
 - fields: {app_label: djangocms_flash, model: flash, name: flash}
   model: contenttypes.contenttype
   pk: 41

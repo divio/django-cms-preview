@@ -138,12 +138,6 @@ INSTALLED_APPS = (
     'djangocms_column',
     'filer',
     'easy_thumbnails',
-    'cmsplugin_filer_image',
-    'cmsplugin_filer_file',
-    'cmsplugin_filer_folder',
-    'cmsplugin_filer_teaser',
-    'cmsplugin_filer_utils',
-    'cmsplugin_filer_video',
     'djangocms_flash',
     'djangocms_googlemap',
     'djangocms_inherit',
@@ -213,16 +207,11 @@ DATABASES = {
 }
 
 MIGRATION_MODULES = {
-    'cmsplugin_filer_image': 'cmsplugin_filer_image.migrations_django',
-    'cmsplugin_filer_file': 'cmsplugin_filer_file.migrations_django',
-    'cmsplugin_filer_teaser': 'cmsplugin_filer_teaser.migrations_django',
     'djangocms_inherit': 'djangocms_inherit.migrations_django',
     'djangocms_column': 'djangocms_column.migrations_django',
     'djangocms_googlemap': 'djangocms_googlemap.migrations_django',
-    'cmsplugin_filer_folder': 'cmsplugin_filer_folder.migrations_django',
     'djangocms_flash': 'djangocms_flash.migrations_django',
     'djangocms_style': 'djangocms_style.migrations_django',
-    'cmsplugin_filer_video': 'cmsplugin_filer_video.migrations_django',
 }
 
 THUMBNAIL_PROCESSORS = (

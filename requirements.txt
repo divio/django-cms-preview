@@ -20,7 +20,7 @@ django-classy-tags>=0.3.4.1
 html5lib
 Pillow>=2.3
 django-sekizai>=0.7
-cmsplugin-filer
+# cmsplugin-filer
 aldryn-newsblog
 aldryn-faq
 aldryn-jobs
