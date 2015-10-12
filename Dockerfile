@@ -15,8 +15,6 @@ RUN pip install https://github.com/divio/djangocms-admin-style/archive/develop.z
 ADD create-users /cms/create-users
 RUN chmod +x /cms/create-users
 
-EXPOSE 80
-
 WORKDIR /cms
 RUN /cms/create-users
 ADD settings.py /cms/preview/settings.py
@@ -32,7 +30,9 @@ ADD template.html /cms/preview/templates/aldryn_people/plugins/standard/people_l
 RUN python manage.py syncdb --noinput
 RUN python manage.py migrate
 
-ADD initial_data.yaml /cms/initial_data.yaml
-RUN python manage.py loaddata /cms/initial_data.yaml
+ADD initial_data.json /cms/initial_data.json
+RUN python manage.py loaddata /cms/initial_data.json
+
+EXPOSE 80
 
 CMD python manage.py runserver 0.0.0.0:80
