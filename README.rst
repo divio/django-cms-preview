@@ -23,4 +23,4 @@ Credentials
 Other
 =====
 
-* Create fixtures: `python manage.py dumpdata --format yaml > dump.yaml`
+* Create fixtures: `python manage.py dumpdata > initial_data.json`

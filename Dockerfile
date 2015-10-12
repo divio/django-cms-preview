@@ -30,8 +30,8 @@ ADD template.html /cms/preview/templates/aldryn_people/plugins/standard/people_l
 RUN python manage.py syncdb --noinput
 RUN python manage.py migrate
 
-ADD initial_data.yaml /cms/initial_data.yaml
-RUN python manage.py loaddata /cms/initial_data.yaml
+ADD initial_data.json /cms/initial_data.json
+RUN python manage.py loaddata /cms/initial_data.json
 
 EXPOSE 80
 
