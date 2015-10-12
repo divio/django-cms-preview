@@ -9,8 +9,8 @@ Dockerfile for a `django CMS <github.com/divio/django-cms>`_ preview (develop).
 Get Started
 ===========
 
-* `docker pull divio/django-cms-preview` (to pull)
-* `docker run -d --name="djangocms-preview" -p 80:80 divio/django-cms-preview` (to run)
+* ``docker pull divio/django-cms-preview`` (to pull)
+* ``docker run -d --name="djangocms-preview" -p 80:80 divio/django-cms-preview`` (to run)
 
 
 Credentials
@@ -23,4 +23,4 @@ Credentials
 Other
 =====
 
-* Create fixtures: `python manage.py dumpdata > initial_data.json`
+* Create fixtures: ``python manage.py dumpdata > initial_data.json``
