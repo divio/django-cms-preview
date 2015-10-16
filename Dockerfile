@@ -1,7 +1,5 @@
 FROM python:2.7
 
-ENV LANG C.UTF-8
-ENV PYTHONUNBUFFERED 1
 ENV PIP_REQUIRE_VIRTUALENV false
 
 RUN pip install --no-deps argparse djangocms-installer six dj-database-url pytz tzlocal
