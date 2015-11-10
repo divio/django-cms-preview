@@ -155,6 +155,7 @@ INSTALLED_APPS = (
     'aldryn_common',
     'aldryn_reversion',
     'aldryn_translation_tools',
+    'aldryn_gallery',
     'parler',
     'preview',
 )

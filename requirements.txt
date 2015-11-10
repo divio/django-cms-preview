@@ -30,3 +30,4 @@ aldryn-categories
 django-taggit
 django-sortedm2m
 PyYAML
+https://github.com/aldryn/aldryn-gallery/archive/master.zip
