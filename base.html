@@ -26,8 +26,9 @@
                 width: 20%;
             }
         </style>
-        {% render_block "css" %}
         <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" />
+        {% render_block "css" %}
+        <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
         <script src="{% static 'js/bootstrap.min.js' %}"></script>
     </head>
     <body>
