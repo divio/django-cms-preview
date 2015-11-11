@@ -1,4 +1,4 @@
-{% load cms_tags menu_tags sekizai_tags %}
+{% load cms_tags menu_tags sekizai_tags staticfiles %}
 <!doctype html>
 <html>
     <head>
@@ -27,6 +27,8 @@
             }
         </style>
         {% render_block "css" %}
+        <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" />
+        <script src="{% static 'js/bootstrap.min.js' %}"></script>
     </head>
     <body>
         {% cms_toolbar %}
