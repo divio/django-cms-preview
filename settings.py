@@ -145,6 +145,7 @@ INSTALLED_APPS = (
     'djangocms_link',
     'reversion',
     'taggit',
+    'adminsortable2',
     'sortedm2m',
     'aldryn_categories',
     'aldryn_newsblog',
