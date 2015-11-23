@@ -1,6 +1,6 @@
 https://github.com/divio/django-cms/archive/develop.zip
 django-treebeard>=2.0
-https://github.com/divio/djangocms-admin-style/archive/develop.zip
+https://github.com/divio/djangocms-admin-style/archive/master.zip
 https://github.com/divio/djangocms-column/archive/master.zip
 https://github.com/divio/djangocms-flash/archive/master.zip
 https://github.com/divio/djangocms-googlemap/archive/master.zip
