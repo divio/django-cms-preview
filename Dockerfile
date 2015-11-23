@@ -8,7 +8,7 @@ RUN apt-get -y update && apt-get -y install git unzip
 ADD requirements.txt /requirements.txt
 RUN djangocms -r /requirements.txt -q -p /cms preview
 
-RUN pip install https://github.com/divio/djangocms-admin-style/archive/develop.zip
+RUN pip install https://github.com/divio/djangocms-admin-style/archive/master.zip
 
 ADD create-users /cms/create-users
 RUN chmod +x /cms/create-users
