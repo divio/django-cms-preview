@@ -34,8 +34,10 @@ RUN rm -rf /cms/preview/static/bootstrap-3.3.5-dist
 RUN python manage.py syncdb --noinput
 RUN python manage.py migrate
 
-ADD initial_data.json /cms/initial_data.json
-RUN python manage.py loaddata /cms/initial_data.json
+# XXX intellectronica 2015-11-26 This initial data was prepared with
+# Django 1.7 and no longer works. Needs to be updated.
+# ADD initial_data.json /cms/initial_data.json
+# RUN python manage.py loaddata /cms/initial_data.json
 
 EXPOSE 80
 
