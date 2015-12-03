@@ -249,10 +249,7 @@ DATABASES = {
 }
 
 MIGRATION_MODULES = {
-    'djangocms_inherit': 'djangocms_inherit.migrations_django',
-    'djangocms_column': 'djangocms_column.migrations_django',
     'djangocms_googlemap': 'djangocms_googlemap.migrations_django',
-    'djangocms_flash': 'djangocms_flash.migrations_django',
     'djangocms_style': 'djangocms_style.migrations_django',
 }
 
