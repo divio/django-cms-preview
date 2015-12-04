@@ -248,11 +248,6 @@ DATABASES = {
     }
 }
 
-MIGRATION_MODULES = {
-    'djangocms_googlemap': 'djangocms_googlemap.migrations_django',
-    'djangocms_style': 'djangocms_style.migrations_django',
-}
-
 THUMBNAIL_PROCESSORS = (
     'easy_thumbnails.processors.colorspace',
     'easy_thumbnails.processors.autocrop',
