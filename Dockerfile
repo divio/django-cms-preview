@@ -6,7 +6,7 @@ RUN pip install --no-deps argparse djangocms-installer six dj-database-url pytz 
 
 RUN apt-get -y update && apt-get -y install git unzip
 ADD requirements.txt /requirements.txt
-RUN djangocms -r /requirements.txt -q -p /cms preview
+RUN djangocms -m -r /requirements.txt -q -p /cms preview
 
 RUN pip install https://github.com/divio/djangocms-admin-style/archive/master.zip
 
