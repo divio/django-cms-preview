@@ -101,7 +101,6 @@ TEMPLATES = [
                 'aldryn_boilerplates.context_processors.boilerplate',
             ],
             'loaders': [
-                'django.template.loaders.eggs.Loader',
                 'django.template.loaders.filesystem.Loader',
                 'aldryn_boilerplates.template_loaders.AppDirectoriesLoader',
                 'django.template.loaders.app_directories.Loader',
