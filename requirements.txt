@@ -1,4 +1,4 @@
-https://github.com/divio/django-cms/archive/develop.zip
+https://github.com/divio/django-cms/archive/release/3.2.x.zip
 django-treebeard>=2.0
 https://github.com/divio/djangocms-admin-style/archive/master.zip
 https://github.com/divio/djangocms-column/archive/master.zip
