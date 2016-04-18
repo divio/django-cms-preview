@@ -261,4 +261,4 @@ THUMBNAIL_PROCESSORS = (
     'easy_thumbnails.processors.filters',
 )
 
-UNESCAPED_RENDER_MODEL_TAGS = False
+CMS_UNESCAPED_RENDER_MODEL_TAGS = False
