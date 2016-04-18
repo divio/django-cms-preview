@@ -1,4 +1,6 @@
 https://github.com/mkoistinen/django-cms/archive/issue/removes_mark_safe.zip#egg=django-cms
+# needed for cms <3.2
+aldryn-apphook-reload
 django-treebeard>=2.0
 https://github.com/divio/djangocms-admin-style/archive/master.zip
 https://github.com/divio/djangocms-column/archive/master.zip
