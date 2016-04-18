@@ -14,7 +14,6 @@ ADD create-users /cms/create-users
 RUN chmod +x /cms/create-users
 
 WORKDIR /cms
-RUN /cms/create-users
 ADD settings.py /cms/preview/settings.py
 ADD template.html /cms/preview/templates/aldryn_faq/plugins/category_list.html
 ADD template.html /cms/preview/templates/aldryn_faq/plugins/latest_questions.html
@@ -37,7 +36,7 @@ RUN python manage.py migrate
 # Django 1.7 and no longer works. Needs to be updated.
 # ADD initial_data.json /cms/initial_data.json
 # RUN python manage.py loaddata /cms/initial_data.json
-
+RUN /cms/create-users
 EXPOSE 80
 
 CMD python manage.py runserver 0.0.0.0:80
