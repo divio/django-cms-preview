@@ -9,7 +9,7 @@ https://github.com/divio/djangocms-googlemap/archive/master.zip
 https://github.com/divio/djangocms-inherit/archive/master.zip
 https://github.com/divio/djangocms-link/archive/master.zip
 https://github.com/divio/djangocms-style/archive/master.zip
-https://github.com/czpython/djangocms-text-ckeditor/archive/fixes/mark-html-as-safe-2.7.zip#egg=djangocms-text-ckeditor
+https://github.com/divio/djangocms-text-ckeditor/archive/master.zip#egg=djangocms-text-ckeditor
 https://github.com/divio/djangocms-file/archive/master.zip
 https://github.com/divio/djangocms-picture/archive/master.zip
 https://github.com/divio/djangocms-teaser/archive/master.zip
