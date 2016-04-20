@@ -175,6 +175,7 @@ INSTALLED_APPS = (
     'aldryn_gallery',
     'parler',
     'preview',
+    'bootstrap3',
     # for cms 3.1 only
     # TODO: delete after switch back to 3.2
     'aldryn_apphook_reload',
