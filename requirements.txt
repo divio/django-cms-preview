@@ -1,5 +1,4 @@
-# https://github.com/divio/django-cms/archive/release/3.2.x.zip
-https://github.com/mkoistinen/django-cms/archive/issue/remove_mark_safe.zip#egg=django-cms
+https://github.com/divio/django-cms/archive/release/3.2.x.zip
 # needed for cms <3.2
 aldryn-apphook-reload
 django-treebeard>=2.0
