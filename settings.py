@@ -79,6 +79,27 @@ STATICFILES_FINDERS = [
     'django.contrib.staticfiles.finders.AppDirectoriesFinder',
 ]
 
+TEMPLATE_CONTEXT_PROCESSORS = [
+    'django.contrib.auth.context_processors.auth',
+    'django.contrib.messages.context_processors.messages',
+    'django.core.context_processors.i18n',
+    'django.core.context_processors.debug',
+    'django.core.context_processors.request',
+    'django.core.context_processors.media',
+    'django.core.context_processors.csrf',
+    'django.core.context_processors.tz',
+    'sekizai.context_processors.sekizai',
+    'django.core.context_processors.static',
+    'cms.context_processors.cms_settings',
+    'aldryn_boilerplates.context_processors.boilerplate',
+]
+
+TEMPLATE_LOADERS = [
+    'django.template.loaders.filesystem.Loader',
+    'aldryn_boilerplates.template_loaders.AppDirectoriesLoader',
+    'django.template.loaders.app_directories.Loader',
+]
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -144,6 +165,7 @@ INSTALLED_APPS = (
     'menus',
     'sekizai',
     'treebeard',
+    'mptt',
     'djangocms_style',
     'djangocms_column',
     'filer',
@@ -179,6 +201,7 @@ INSTALLED_APPS = (
     # for cms 3.1 only
     # TODO: delete after switch back to 3.2
     'aldryn_apphook_reload',
+    'south',
 )
 
 LANGUAGES = (
