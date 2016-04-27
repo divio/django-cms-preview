@@ -1,5 +1,5 @@
 # Install from PyPI to verify release
-django-cms==3.0.17
+django-cms==3.0.18
 # https://github.com/divio/django-cms/archive/support/3.0.x.zip
 # needed for cms <3.2
 aldryn-apphook-reload
