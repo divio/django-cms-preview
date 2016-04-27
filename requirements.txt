@@ -1,4 +1,6 @@
-https://github.com/divio/django-cms/archive/support/3.1.x.zip
+# Install from PyPI to verify the release
+django-cms==3.1.6
+# https://github.com/divio/django-cms/archive/support/3.1.x.zip
 # needed for cms <3.2
 aldryn-apphook-reload
 django-treebeard>=2.0
