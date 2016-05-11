@@ -1,5 +1,4 @@
-# Install from PyPI to verify the release
-https://github.com/divio/django-cms/archive/release/3.2.x.zip
+https://github.com/divio/django-cms/archive/develop.zip
 # needed for cms <3.2
 aldryn-apphook-reload
 django-treebeard>=2.0
