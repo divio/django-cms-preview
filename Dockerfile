@@ -30,6 +30,7 @@ RUN rm /tmp/bootstrap.zip
 RUN mv /cms/preview/static/bootstrap-3.3.5-dist/* /cms/preview/static/
 RUN rm -rf /cms/preview/static/bootstrap-3.3.5-dist
 
+RUN python manage.py migrate cms 0013
 RUN python manage.py migrate
 
 # XXX intellectronica 2015-11-26 This initial data was prepared with
