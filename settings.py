@@ -111,10 +111,7 @@ TEMPLATES = [
 
 
 MIDDLEWARE_CLASSES = (
-    # TODO: for cms 3.1 only, delete the apphook_reload after the switch to 3.2
-    # and uncomment the cms middleware
-    #'cms.middleware.utils.ApphookReloadMiddleware',
-    'aldryn_apphook_reload.middleware.ApphookReloadMiddleware',
+    'cms.middleware.utils.ApphookReloadMiddleware',
 
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -176,9 +173,6 @@ INSTALLED_APPS = (
     'parler',
     'preview',
     'bootstrap3',
-    # for cms 3.1 only
-    # TODO: delete after switch back to 3.2
-    'aldryn_apphook_reload',
 )
 
 LANGUAGES = (
