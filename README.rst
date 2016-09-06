@@ -3,7 +3,7 @@ django CMS Preview
 ##################
 
 
-Dockerfile for a `django CMS <github.com/divio/django-cms>`_ preview (develop).
+Dockerfile for a `django CMS <http://github.com/divio/django-cms>`_ preview (develop).
 
 
 Get Started
